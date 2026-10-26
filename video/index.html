@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>動画をhtmlに埋め込む</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .video-wrapper {
+            width: 100%;
+            height: 100vh;
+            margin: 0 auto;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            /* 動画の上に */
+        }
+
+        video {
+            object-fit: cover;
+            object-position: 50% 100%;
+            /* x方向　ｙ方向 */
+            width: 100%;
+            height: 100%;
+           
+        }
+
+        .text-wrapper {
+            width: 50%;
+            padding: 200px 100px;
+            background-color: #ffffff88;
+             font-family: "Carter One", system-ui;
+        }
+
+        h1 {
+            font-size: 48px;
+            margin-bottom: 50px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 2;
+        }
+    </style>
+
+</head>
+
+
+
+<body>
+    <div class="video-wrapper">
+        <video src="img/main.mp4" autoplay muted loop playsinline></video>
+    </div>
+
+    <div class="text-wrapper">
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, alias.</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, quia nemo iusto porro provident, cumque maxime
+            dolorem nobis fugiat, molestiae sapiente impedit consectetur eligendi? Et odit optio perferendis pariatur
+            harum accusamus mollitia totam atque? Dolores molestiae magnam provident facilis consequuntur nobis itaque
+            dignissimos, quam vel odit id voluptas corporis rem reprehenderit eveniet saepe! Doloribus nisi enim commodi
+            quibusdam, sed, ut ipsam distinctio odit officiis quod nam mollitia eum. Natus distinctio corporis nulla
+            eius vel facere adipisci itaque enim. Ducimus aspernatur officia quia culpa quis velit sunt accusamus nobis
+            error minus, sint dignissimos, debitis dolore iusto ipsam eum, quasi deserunt iure numquam consectetur hic
+            placeat distinctio repellat soluta. Laudantium magnam dicta quidem eaque debitis modi a enim minus aut,
+            corrupti aliquid dolorum harum delectus ratione. Iure, error. Sint earum assumenda aspernatur
+            exercitationem, magnam sit recusandae corporis tenetur obcaecati. Ut quas corrupti laboriosam nostrum
+            exercitationem porro provident facere laudantium numquam aperiam quae iusto quasi enim corporis odit magni
+            ipsa deleniti inventore veritatis, voluptatum nesciunt est. Rem labore quibusdam ea, iste corporis dicta
+            mollitia possimus porro repellendus incidunt eos atque veniam culpa adipisci saepe repudiandae nemo odit
+            ducimus iure tempore voluptas magni eaque dignissimos. Porro natus necessitatibus distinctio magnam beatae,
+            est quo tempore!</p>
+
+    </div>
+</body>
+
+</html>
