@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="足を伸ばして、深呼吸。昔ながらの銭湯、湯屋こまちで心ほどけるひとときを。">
+    <meta name="theme-color" content="#f6f1e7">
+    <title>湯屋こまち | 町の湯で、ひと息。</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <a class="brand" href="#top" aria-label="湯屋こまち トップ">
+            <span class="brand-mark" aria-hidden="true">湯</span>
+            <span class="brand-name">湯屋こまち<small>町の湯で、ひと息。</small></span>
+        </a>
+        <nav class="main-nav" aria-label="メインナビゲーション">
+            <a href="#about">こまちのこと</a>
+            <a href="#facilities">館内案内</a>
+            <a href="#voices">お客様の声</a>
+        </nav>
+        <a class="header-cta" href="#access">営業案内 <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main id="top">
+        <section class="hero section-wrap" aria-labelledby="hero-title">
+            <div class="hero-copy">
+                <p class="eyebrow"><span></span> A LITTLE PAUSE IN YOUR DAY</p>
+                <h1 id="hero-title">足を伸ばして、<br>深呼吸。<span>スマホを置いて、<br>湯気の中へ。</span></h1>
+                <p class="hero-description">いつもの町に、いつもの湯けむり。<br>肩の力をぬいて、自分に戻る時間をどうぞ。</p>
+                <a class="button button-primary" href="#facilities">こまちをのぞいてみる <span aria-hidden="true">→</span></a>
+                <p class="hero-note">昭和三十三年創業、町の小さな銭湯です。</p>
+            </div>
+            <div class="hero-visual">
+                <img src="https://placehold.jp/800x400.png?text=Main+Visual" alt="湯屋こまちの浴場をイメージしたメインビジュアル">
+                <div class="visual-stamp" aria-hidden="true"><span>GOOD</span><strong>湯</strong><span>DAY</span></div>
+                <p class="visual-caption"><span>01</span> A PLACE TO UNWIND</p>
+            </div>
+            <a class="scroll-cue" href="#about"><span>SCROLL</span><i aria-hidden="true"></i></a>
+        </section>
+
+        <section class="intro section-wrap" id="about" aria-labelledby="about-title">
+            <div class="section-label"><span>01</span><span>ABOUT KOMACHI</span></div>
+            <div class="intro-content">
+                <p class="kicker">湯に浸かる。ただ、それだけで。</p>
+                <h2 id="about-title">今日の疲れを、<br><em>今日のうちに。</em></h2>
+                <p class="body-copy">番台の「こんばんは」に、ほっとする。大きなお風呂に肩まで浸かると、なんだか気持ちまで軽くなる。湯屋こまちは、そんな何気ないひとときを大切にする、町の銭湯です。</p>
+            </div>
+            <div class="intro-aside"><span class="ornament" aria-hidden="true">♨</span><p>おかえりなさい。<br>今日も、いいお湯です。</p></div>
+        </section>
+
+        <section class="features section-wrap" aria-labelledby="features-title">
+            <div class="section-heading">
+                <div><p class="eyebrow">WHY KOMACHI</p><h2 id="features-title">ここが、ちょうどいい。</h2></div>
+                <p>気取らず、急がず、いつもの自分で。</p>
+            </div>
+            <div class="feature-grid">
+                <article class="feature-card">
+                    <span class="feature-number">01</span><span class="feature-icon" aria-hidden="true">○</span>
+                    <h3>親しみやすい</h3><p>いつもの顔も、初めての人も。番台からの「いらっしゃい」が、今日の湯あがりを待っています。</p>
+                </article>
+                <article class="feature-card">
+                    <span class="feature-number">02</span><span class="feature-icon feature-icon-wave" aria-hidden="true">〰</span>
+                    <h3>静かに過ごせる</h3><p>湯の音に耳を澄ませて、ひとりの時間を。慌ただしい毎日から、少しだけ離れてみませんか。</p>
+                </article>
+                <article class="feature-card">
+                    <span class="feature-number">03</span><span class="feature-icon" aria-hidden="true">♨</span>
+                    <h3>ゆったりくつろぐ</h3><p>足を伸ばせる湯船と、湯あがりの休憩室。何もしない贅沢を、どうぞゆっくり。</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="facilities" id="facilities" aria-labelledby="facilities-title">
+            <div class="section-wrap facilities-inner">
+                <div class="section-heading">
+                    <div><p class="eyebrow">A LITTLE LOOK AROUND</p><h2 id="facilities-title">こまちの、いつもの景色。</h2></div>
+                    <p>お風呂の前も、あとも。<br>気持ちよく過ごせる場所を整えています。</p>
+                </div>
+                <div class="content-grid" id="content-list" aria-live="polite"></div>
+            </div>
+        </section>
+
+        <section class="voices section-wrap" id="voices" aria-labelledby="voices-title">
+            <div class="section-heading">
+                <div><p class="eyebrow">FROM OUR NEIGHBORS</p><h2 id="voices-title">湯あがりの、ひとこと。</h2></div>
+                <p>お客さまから届いた声をご紹介します。</p>
+            </div>
+            <div class="voice-grid" id="voice-list" aria-live="polite"></div>
+        </section>
+
+        <section class="faq-section" aria-labelledby="faq-title">
+            <div class="section-wrap faq-layout">
+                <div class="faq-heading"><p class="eyebrow">GOOD TO KNOW</p><h2 id="faq-title">よくある<br>ご質問。</h2><p>ご来店前に気になることがあれば、こちらをご覧ください。</p><span class="faq-mark" aria-hidden="true">?</span></div>
+                <div class="faq-list" id="faq-list"></div>
+            </div>
+        </section>
+
+        <section class="access section-wrap" id="access" aria-labelledby="access-title">
+            <div class="access-intro"><p class="eyebrow">COME ON IN</p><h2 id="access-title">今夜は、ひと風呂。</h2><p>お仕事帰りにも、休日の気分転換にも。<br>暖簾をくぐって、お待ちしています。</p></div>
+            <div class="access-details">
+                <div><span>営業時間</span><strong>15:00 — 23:00</strong></div>
+                <div><span>定休日</span><strong>毎週水曜日</strong></div>
+                <div><span>住所</span><strong>東京都○○区こまち通り 1-2-3</strong></div>
+            </div>
+            <a class="button button-light" href="tel:03-0000-0000">お問い合わせ <span aria-hidden="true">↗</span></a>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <a class="brand footer-brand" href="#top"><span class="brand-mark" aria-hidden="true">湯</span><span class="brand-name">湯屋こまち<small>町の湯で、ひと息。</small></span></a>
+        <p>今日も、いい湯を。</p>
+        <small class="copyright">© <span id="current-year">2026</span> YUYA KOMACHI</small>
+    </footer>
+</body>
+</html>
